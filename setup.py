@@ -20,11 +20,11 @@ setup(
     description='Toolkit for analyzing hair fiber morphology',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    python_requires='>3.8.2',
+    #python_requires='>3.8.2',
     install_requires=[
         'numpy', 'scipy', 'matplotlib', 'joblib', 'pandas',
         'scikit-learn', 'Pillow', 'rawpy', 'requests', 'sympy', 'argparse',
-        'scikit-image', 'joblib', 'matplotlib', 'tqdm'],
+        'scikit-image', 'joblib', 'matplotlib', 'tqdm', 'shapely'],
     entry_points={
         "console_scripts": [
             'fibermorph = fibermorph.fibermorph:main']}
